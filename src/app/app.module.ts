@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderMComponent } from './header-m/header-m.component';
 import { MainMComponent } from './main-m/main-m.component';
 import { FooterMComponent } from './footer-m/footer-m.component';
+import { PostagemComponent } from './postagem/postagem.component';
 
 
 @NgModule({
@@ -19,10 +20,12 @@ import { FooterMComponent } from './footer-m/footer-m.component';
     FooterComponent,
     HeaderMComponent,
     MainMComponent,
-    FooterMComponent
+    FooterMComponent,
+    PostagemComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent]

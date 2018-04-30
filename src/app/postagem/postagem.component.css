@@ -1,0 +1,22 @@
+.main-postagem {
+    position: absolute;
+    /* background-color: lightcyan; */
+    height: 80%;
+}
+
+.return-container {
+    position: relative;
+    margin-top: 50px;
+    padding: 0 20px;
+    background-color: #fff;
+}
+
+#joke-text {
+    font-size: 1.2em;
+}
+
+.container-btn {
+    top: 70%;
+    position: fixed;
+    width: 90%;
+}
